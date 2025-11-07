@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopSmart – Best Deals Online</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/891/891462.png">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="https://cdn-icons-png.flaticon.com/512/891/891462.png" alt="Shop Logo" width="35" />
+      <h1>ShopSmart</h1>
+    </div>
+
+    <div class="nav-actions">
+      <input type="text" id="searchInput" placeholder="Search products..." />
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="electronics">Electronics</option>
+        <option value="accessories">Accessories</option>
+        <option value="home">Home</option>
+      </select>
+
+      <!-- Theme Toggle -->
+      <button id="themeToggle" class="icon-btn">
+        <img id="themeIcon" src="https://cdn-icons-png.flaticon.com/512/5262/5262027.png" alt="Dark Mode" width="25" />
+      </button>
+
+      <!-- Cart Icon -->
+      <button id="cartButton" class="icon-btn">
+        <img src="https://cdn-icons-png.flaticon.com/512/891/891462.png" alt="Cart" width="28" />
+        <span id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Shop the Latest Gadgets & Accessories</h2>
+      <p>Exclusive discounts and top-rated products — all in one place.</p>
+      <a href="#productsContainer" class="shop-btn">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Product List -->
+  <main>
+    <div id="productsContainer" class="products"></div>
+  </main>
+
+  <!-- Cart Sidebar -->
+  <aside id="cartContainer" class="cart hidden">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button id="closeCart" class="close-btn">❌</button>
+    </div>
+    <div id="cartItems"></div>
+    <div class="cart-footer">
+      <h3>Total: ₹<span id="totalAmount">0</span></h3>
+      <button id="clearCart">Clear Cart</button>
+    </div>
+  </aside>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast"></div>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
