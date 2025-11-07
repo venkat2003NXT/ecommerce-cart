@@ -7,7 +7,7 @@ const products = [
   { id: 6, name: "LED TV 43-inch", category: "home", price: 25999, image: "https://images.pexels.com/photos/4790261/pexels-photo-4790261.jpeg?auto=compress&cs=tinysrgb&w=600" },
   { id: 7, name: "Wireless Keyboard", category: "electronics", price: 999, image: "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=600" },
   { id: 8, name: "Coffee Maker", category: "home", price: 3499, image: "https://images.pexels.com/photos/4109994/pexels-photo-4109994.jpeg?auto=compress&cs=tinysrgb&w=600" },
-  { id: 9, name: "Digital Camera", category: "electronics", price: 42999, image: "https://images.pexels.com/photos/51383/camera-lens-technology-digital-51383.jpeg?auto=compress&cs=tinysrgb&w=600" },
+  { id: 9, name: "Digital Camera", category: "electronics", price: 42999, image: "https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=600&q=60" },
   { id: 10, name: "Bluetooth Earbuds", category: "accessories", price: 1599, image: "https://images.pexels.com/photos/3769747/pexels-photo-3769747.jpeg?auto=compress&cs=tinysrgb&w=600" },
   { id: 11, name: "Portable Power Bank", category: "electronics", price: 1299, image: "https://images.pexels.com/photos/4790262/pexels-photo-4790262.jpeg?auto=compress&cs=tinysrgb&w=600" },
   { id: 12, name: "Home Projector", category: "home", price: 18999, image: "https://images.pexels.com/photos/3799116/pexels-photo-3799116.jpeg?auto=compress&cs=tinysrgb&w=600" }
